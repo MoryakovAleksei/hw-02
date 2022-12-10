@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-           /* Console.WriteLine("Введите число:");
-            var number = Console.ReadLine();
-            if (args.Length > 0)
+            Console.WriteLine("Введите число:");
+            var number = long.Parse(Console.ReadLine());
+            //sbyte
+            if (number > sbyte.MinValue & number < sbyte.MaxValue)
             {
                 var t = (T)E;
             }
